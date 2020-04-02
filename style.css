@@ -14,7 +14,7 @@ html, body {
 }
 
 strong{
-  color:red;
+  color:pink;
 }
   
 
@@ -85,8 +85,8 @@ h1,h2 {
   width:200px;
   border-top: 2px solid pink;
   margin: 15px auto;
+  margin-top: 35px;
 }
-
 
   /* 경기천년바탕 */
   @font-face { font-family: 'GyeonggiBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
