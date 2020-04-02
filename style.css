@@ -1,24 +1,22 @@
 ::Selection{
-  color:white;
-  background:#9966ff;
+  color: black;
+  background: pink;
 }
-
 
 html, body {
   width: 100%;
   height: 100%;
   position: relative;
   padding:0;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur271.cur), progress !important;
+  background-color: #333333;
+  color: #e0e0e0;
 }
 
 strong{
   color:red;
 }
   
-a {
-  color:#999999;
-  text-decoration: none;
-}
 
 #article {
   margin: 0 25px;
@@ -44,17 +42,17 @@ ul {
 }
 
 
-h1 > a {
-  color: #9966ff;
-}  
+h1,h2 {
+  color: pink;
+} 
+
 
 /* 내용 */
 .content {
   font-weight: bold;
-  font-family: 'BMHANNAAir';
+  font-family: 'GyeonggiBatang';
   max-width: 768px;
   display: block;
-  overflow: hidden;
   margin: auto;
   max-width: 768px;
   text-align: justify;
@@ -76,6 +74,11 @@ h1 > a {
   text-align: center;
 }
 
+.contact a{
+  color: #999999;
+  text-decoration-line: none;
+}
+
 .contact:before{
   content:"";
   display: block;
@@ -85,16 +88,8 @@ h1 > a {
 }
 
 
-  /* 가비아 납작블럭체 */
-  @font-face { font-family: 'NapjakBlock'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NapjakBlock.woff') format('woff'); font-weight: normal; font-style: normal; }
   /* 경기천년바탕 */
   @font-face { font-family: 'GyeonggiBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
-  /* 한겨레결체 */
-  @font-face { font-family: 'Hankc'; font-style: normal; font-weight: 400; src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff2') format('woff2'), url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff') format('woff'); } .hankc * { font-family: 'Hankc', serif; }
-  /* 배민 한나체 Air */
-  @font-face { font-family: 'BMHANNAAir'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff'); font-weight: normal; font-style: normal; }
-  /* 빙그레체11 */
-  @font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
   /* KCC김훈체 */
   @font-face { font-family: 'KCC-Kimhoon'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-Kimhoon-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
   /* Gmarket Sans B */
